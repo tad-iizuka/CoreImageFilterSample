@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  CoreImageFilterSample
+
+  Created by Tadashi on 2017/09/27.
+  Copyright © 2017 UBUNIFU Incorporated. All rights reserved.
+*/
+CFBundleDisplayName = "CIFilter";

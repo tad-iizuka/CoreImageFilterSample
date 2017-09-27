@@ -12,6 +12,10 @@
 		32EEB03C1F7B2E91007E7F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB03A1F7B2E91007E7F69 /* Main.storyboard */; };
 		32EEB03E1F7B2E91007E7F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB03D1F7B2E91007E7F69 /* Assets.xcassets */; };
 		32EEB0411F7B2E91007E7F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB03F1F7B2E91007E7F69 /* LaunchScreen.storyboard */; };
+		32EEB04B1F7B4518007E7F69 /* PIC00074.dng in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB04A1F7B4518007E7F69 /* PIC00074.dng */; };
+		32EEB04D1F7B521E007E7F69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB04C1F7B521E007E7F69 /* InfoPlist.strings */; };
+		32EEB04F1F7B56EC007E7F69 /* thumb-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB04E1F7B56EB007E7F69 /* thumb-20@2x.png */; };
+		32EEB0511F7B56F6007E7F69 /* thumb-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB0501F7B56F6007E7F69 /* thumb-50@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		32EEB03D1F7B2E91007E7F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EEB0401F7B2E91007E7F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EEB0421F7B2E91007E7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EEB04A1F7B4518007E7F69 /* PIC00074.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = PIC00074.dng; sourceTree = "<group>"; };
+		32EEB04C1F7B521E007E7F69 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		32EEB04E1F7B56EB007E7F69 /* thumb-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-20@2x.png"; sourceTree = "<group>"; };
+		32EEB0501F7B56F6007E7F69 /* thumb-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-50@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		32EEB0351F7B2E91007E7F69 /* CoreImageFilterSample */ = {
 			isa = PBXGroup;
 			children = (
+				32EEB0501F7B56F6007E7F69 /* thumb-50@2x.png */,
+				32EEB04E1F7B56EB007E7F69 /* thumb-20@2x.png */,
+				32EEB04A1F7B4518007E7F69 /* PIC00074.dng */,
 				32EEB0361F7B2E91007E7F69 /* AppDelegate.swift */,
 				32EEB0381F7B2E91007E7F69 /* ViewController.swift */,
 				32EEB03A1F7B2E91007E7F69 /* Main.storyboard */,
 				32EEB03D1F7B2E91007E7F69 /* Assets.xcassets */,
 				32EEB03F1F7B2E91007E7F69 /* LaunchScreen.storyboard */,
 				32EEB0421F7B2E91007E7F69 /* Info.plist */,
+				32EEB04C1F7B521E007E7F69 /* InfoPlist.strings */,
 			);
 			path = CoreImageFilterSample;
 			sourceTree = "<group>";
@@ -124,8 +136,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EEB0411F7B2E91007E7F69 /* LaunchScreen.storyboard in Resources */,
+				32EEB0511F7B56F6007E7F69 /* thumb-50@2x.png in Resources */,
+				32EEB04F1F7B56EC007E7F69 /* thumb-20@2x.png in Resources */,
 				32EEB03E1F7B2E91007E7F69 /* Assets.xcassets in Resources */,
+				32EEB04B1F7B4518007E7F69 /* PIC00074.dng in Resources */,
 				32EEB03C1F7B2E91007E7F69 /* Main.storyboard in Resources */,
+				32EEB04D1F7B521E007E7F69 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
